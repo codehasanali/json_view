@@ -5,3 +5,6 @@
          cat dosya.json | json_view  # Json dosyasını içeriğini görmek için .
      Flags:
          -h, --yardım : Yardım komutlarını gösterir.
+
+
+![plot](./media/main.png)
