@@ -70,7 +70,6 @@ func displayUsage() {
 }
 
 func openStdinOrFile() (io.Reader, error) {
-	// try to open a file if exists
 	if len(pflag.Args()) == 1 {
 		r, err := os.Open(pflag.Arg(0))
 		if err != nil {
