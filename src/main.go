@@ -84,7 +84,7 @@ func openStdinOrFile() (io.Reader, error) {
 		return nil, err
 	}
 	if info.Mode()&os.ModeNamedPipe == 0 {
-		return nil, fmt.Errorf("Giriş belirtilmedi.")
+		return nil, fmt.Errorf("Json dosyası  belirtilmedi.")
 	}
 
 	return os.Stdin, err
