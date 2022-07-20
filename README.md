@@ -4,4 +4,4 @@
         Örnek: json_view dosya.json
          cat dosya.json | json_view  # Json dosyasını içeriğini görmek için .
      Flags:
-        -h, --help : Show help
+        -h, --Yardım : Yardım komutlarını gösterir.

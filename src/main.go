@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-	display_help := pflag.BoolP("Yardım", "h", false, " Yardım")
+	display_help := pflag.BoolP("Yardım", "h", false, "yardım")
 
 	pflag.Parse()
 
